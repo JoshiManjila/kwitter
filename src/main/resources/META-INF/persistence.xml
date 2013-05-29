@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
 	https://raw.github.com/impetus-opensource/Kundera/Kundera-2.0.4/kundera-core/src/test/resources/META-INF/persistence_2_0.xsd"
 	version="2.0">	
-<!-- 	<persistence-unit name="twitample_cassandra" transaction-type="JTA">
- -->	<persistence-unit name="twitample_cassandra">
+<!-- 	<persistence-unit name="kwitter_cassandra" transaction-type="JTA">
+ -->	<persistence-unit name="kwitter_cassandra">
 		<provider>com.impetus.kundera.KunderaPersistence</provider>
 		<properties>
 			<property name="kundera.nodes" value="localhost" />
 			<property name="kundera.port" value="9160" />
-			<property name="kundera.keyspace" value="twitample" />
+			<property name="kundera.keyspace" value="kwitter" />
 			<property name="kundera.dialect" value="cassandra" />
 			<property name="kundera.ddl.auto.prepare" value="create" />
 			<property name="kundera.client.lookup.class"
