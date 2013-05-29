@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientProperties>
+	<datastores>
+		<dataStore>
+			<name>cassandra</name>
+			<schemas>
+				<schema>
+					<name>kwitter</name>
+					<properties>
+						<property name="strategy.class" value="SimpleStrategy" />
+						<property name="replcation.factor" value="1" />
+						<property name="durable.writes" value="true" />
+						<property name="inverted.indexing.enabled" value="true" />
+					</properties>					
+					
+				</schema>
+			</schemas>
+		</dataStore>
+	</datastores>
+</clientProperties>
